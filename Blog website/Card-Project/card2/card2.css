@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  min-height: 900px;
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card2 {
+  width: 360px;
+  height: 550px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  gap: 25px;
+  padding: 20px;
+  box-shadow: 3px 3px 37px black;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card2 img {
+  width: 113%;
+  height: 30%;
+  margin-top: -20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.textBox h2 {
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.textBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 80%;
+  text-align: center;
+}
+.textBox p {
+  font-size: 1em;
+  font-style: unset;
+}
+#amountBox {
+  width: 90%;
+  height: 10%;
+  background-color: rgb(161, 232, 232);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#leftBox {
+  /* width: fit-content; */
+  height: 100%;
+  display: flex;
+  gap: 15px;
+
+  align-items: center;
+}
+
+.rightBox {
+}
+
+.imgBox img {
+  width: 40px;
+  height: 40px;
+  margin-top: 6px;
+}
+
+#paymentButton {
+  width: 90%;
+  height: 9%;
+  background-color: rgb(35, 64, 180);
+  border-radius: 10px;
+  border-style: none;
+  color: aliceblue;
+  font-weight: bold;
+  box-shadow: 3px 3px 20px rgb(107, 155, 234);
+}
+
+.card2 p2 {
+  padding-top: 15px;
+  color: rgb(0, 1, 2);
+  font-weight: bold;
+}

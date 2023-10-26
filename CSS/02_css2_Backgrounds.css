@@ -1,0 +1,100 @@
+/* Background-color property */
+
+/* body {
+  background-color: rgb(37, 67, 158);
+}
+
+h1 {
+  background-color: rgb(0, 160, 219);
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 90px;
+  margin-right: 90px;
+  padding: 15px;
+  border-radius: 10px;
+  color: rgb(231, 243, 17);
+}
+
+div {
+  background-color: rgb(39, 131, 161);
+  opacity: 0.5;
+}
+
+p {
+  background-color: yellowgreen;
+} */
+
+/* Background-image Property */
+body {
+  /* background-image: url("nadir2.jpg");
+  width: 1000px;
+  height: 1000px;
+  /* background-repeat: repeat-x; */
+  /* background-repeat: no-repeat; */
+  /* background-repeat: repeat-y; */
+  /* background-size: cover;
+  background-attachment: fixed;
+  background-attachment: scroll; */
+}
+
+h1 {
+  background-color: #219c90;
+  /* padding-left: 50%;
+  padding-top: 2%;
+  padding-bottom: 2%; */
+  text-align: center;
+  border: 3px solid #1aacac;
+  border-radius: 8px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+h1:hover {
+  background-color: #45ffca;
+}
+
+div {
+  background-color: rgb(20, 104, 132);
+  margin-left: 300px;
+}
+
+p.one {
+  border-style: solid;
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(118, 118, 219);
+  border-width: 5px;
+  border-radius: 7px;
+}
+p.two {
+  border-style: dotted;
+  padding: 4px;
+  text-align: right;
+  background-color: aquamarine;
+  border-width: medium;
+}
+p.three {
+  border-style: inset;
+  padding: 7px;
+  text-align: start;
+  background-color: brown;
+  border-width: 2px;
+}
+p.four {
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+  background-color: blueviolet;
+  border-width: thick;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* p,
+#id {
+  border-top: dotted;
+  border-right: solid;
+  border-bottom: dashed;
+  border-left: solid;
+} */

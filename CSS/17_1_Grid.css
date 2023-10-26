@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  background-color: rgb(9, 131, 90);
+  gap: 0.6rem;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  padding: 4rem;
+}
+
+.item {
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+  border: 3px solid blueviolet;
+  justify-self: center;
+}

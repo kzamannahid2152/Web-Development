@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  /* display: inline; */
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+span {
+  border: 2px solid rgb(18, 219, 75);
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+  padding: 9%;
+  /* display: inline; */
+  display: inline-block;
+}

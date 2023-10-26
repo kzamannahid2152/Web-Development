@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  max-width: 70vw;
+  padding: 2rem 1rem;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header_container {
+  margin-bottom: 2.8rem;
+}
+
+.header_title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  line-height: 2rem;
+  font-weight: bold;
+}
+
+.header_decription {
+  text-align: center;
+  color: rgb(95, 92, 92);
+  margin: 0 auto;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.main_container {
+  display: grid;
+  gap: 1.5rem;
+  justify-content: space-between;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 650px) {
+  .main_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1080px) {
+  .main_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1380px) {
+  .main_container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.card_container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(240, 238, 238);
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgb(213, 209, 209);
+}
+
+.card_container:hover .card_image {
+  transform: scale(1.1);
+  transition-duration: 200ms;
+}
+
+.card_image_container {
+  position: relative;
+  overflow: hidden;
+  height: 12rem;
+}
+
+.card_image {
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 9px;
+}
+.card_title_container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+.card_title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 0.4rem;
+  line-height: 1.5rem;
+}
+.card_title:hover {
+  color: rgb(72, 72, 228);
+}
+
+.card_decription {
+  color: rgb(98, 93, 93);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+}
+
+.card_footer_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.author_info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.author_photos .author_avatar {
+  height: 2.5rem;
+  width: 2.5rem;
+  overflow: hidden;
+  border: 1px solid rgb(138, 134, 134);
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info .jondoe {
+  color: rgb(96, 96, 227);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+}
+.info .datedoe {
+  color: rgb(150, 150, 212);
+  font-size: 0.7rem;
+}
+
+.card_tag_two {
+  font-size: 0.8rem;
+  margin-right: 1rem;
+  border: 1px solid black;
+  border-radius: 3px;
+  line-height: 3rem;
+  padding: 0.2rem 0.4rem;
+  color: rgb(69, 76, 69);
+}

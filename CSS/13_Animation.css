@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  border: 4px solid rgb(34, 235, 15);
+  background-color: rgb(239, 239, 159);
+}
+
+.box {
+  width: 320px;
+  height: 80px;
+  border: 3px solid rgb(233, 240, 28);
+  background-color: rgb(6, 191, 34);
+  border-radius: 10px;
+  margin: 20px;
+  position: relative;
+  /* animation-name: rightMovement;
+    animation-duration: 5s;
+    /*left/right dike theke right/left a jete koto somoy lagbe tai ""animation-duration"" property use korbo*/
+  /* animation-iteration-count: 2; */
+  /*koto bar she move korbe tar jonno ""animation-iteration-count"" property use korbo*/
+  /* animation-delay: 2s; */
+  /*animation start er age koto somoy delay korbe tar jonno ""animation-delay"" property use korbo*/
+  /*animation-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+    animation-direction: alternate-reverse; */
+
+  /* ShortHnad notation */
+  /* @keyframes duration | easing-function | delay | iteration-count | direction | fill-mode | play-state | name */
+  animation: 5s linear 1s infinite alternate none running rightMovement;
+}
+
+/* ekhane amar box ta left dike theke right dike movement korbe */
+@keyframes rightMovement {
+  from {
+    top: 0;
+    left: 0;
+  }
+
+  to {
+    top: 0;
+    left: 1350px;
+  }
+}
+
+p {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 25px;
+  color: rgb(210, 155, 53);
+  font-size: 25px;
+}
+
+.box2 {
+  width: 320px;
+  height: 80px;
+  border: 3px solid rgb(17, 199, 117);
+  background-color: rgb(30, 114, 204);
+  border-radius: 10px;
+  margin: 20px;
+  position: relative;
+  animation: 5s ease-in 4s infinite alternate none running leftMovement;
+}
+
+@keyframes leftMovement {
+  from {
+    top: 680px;
+    left: 1350px;
+  }
+
+  to {
+    top: 680px;
+    left: 0;
+  }
+}
+
+#circle {
+  width: 100px;
+  height: 100px;
+  border: 3px solid rgb(243, 243, 0);
+  background-color: rgb(237, 10, 10);
+  border-radius: 50px;
+  margin: 10px;
+  position: relative;
+  top: 230px;
+  left: 50%;
+  animation: 10s ease-in-out 0s infinite alternate-reverse none running
+    circleMovement;
+}
+
+@keyframes circleMovement {
+  0% {
+    top: 1%;
+    left: 50%;
+  }
+  30% {
+    top: 5%;
+    left: 90%;
+  }
+  60% {
+    top: 60%;
+    left: 10%;
+  }
+  100% {
+    top: 20%;
+    left: 70%;
+  }
+}

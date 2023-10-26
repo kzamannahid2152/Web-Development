@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="ford.png" />
+    <title>Mavens Car</title>
+  </head>
+  <body>
+    <nav>
+      <p>Home</p>
+    </nav>
+    <form action="">
+      <h1 style="text-align: center">Mavens Car</h1>
+      <h2>Client Details</h2>
+      <p>Name : * <input type="text" name="fullname" required /></p>
+      <fieldset>
+        <legend><b>Select your gender</b></legend>
+        Male <input type="radio" name="male" id="male" required /> Female
+        <input type="radio" name="female" id="female" required />
+      </fieldset>
+      <p>
+        Address:
+        <textarea name="address" id="address" cols="90" rows="10"></textarea>
+      </p>
+      <p>
+        Email: *
+        <input type="email" name="email_address" id="email_address" required />
+      </p>
+      <p>
+        Pincode: * <input type="pincode_ss" name="pincode_ss" id="pincode_ss" />
+      </p>
+      <h2 style="text-align: center">Choose your Car</h2>
+      <h3>Car List</h3>
+      <p>
+        Car Type :
+        <select name="car_type" id="car_type">
+          <option value="">--Select your Car--</option>
+          <option value="bmw">BMW</option>
+          <option value="audicars">Audi</option>
+          <option value="lamborghini">Lamborghini</option>
+          <option value="alfafa">Alfa Romeo</option>
+          <option value="hondamotors">Honda</option>
+          <option value="jeep">Jeep</option>
+          <option value="volvo">Volvo Cars</option>
+          <option value="toyot">Toyota</option>
+          <option value="mercedes-benz">Mercedes-Benz</option>
+          <option value="tesla">Tesla</option>
+          <option value="mini">MINI</option>
+          <option value="mavenscars">Mavens</option>
+        </select>
+      </p>
+      <p>
+        Card Number : *
+        <input type="number" name="cardnumber" id="cardnumber" />
+      </p>
+      <p>CVV: * <input type="password" name="cvv" id="cvv" /></p>
+      <input type="submit" value="Pay Now" />
+    </form>
+    <br />
+    <canvas
+      id="mycanvas"
+      width="200"
+      height="100"
+      style="border: 1px solid black"
+    ></canvas>
+  </body>
+</html>

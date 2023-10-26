@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="twitter.png" />
+    <title>Mavens</title>
+  </head>
+
+  <style>
+    h1 {
+      text-align: center;
+      text-decoration: none;
+      font-size: 50px;
+      color: rgb(0, 0, 0);
+      border: 6px solid rgb(39, 155, 187);
+      padding: 2px;
+      margin: 4% 5% 2% 5%;
+      background-color: rgb(44, 161, 215);
+    }
+    h2 {
+      text-align: center;
+    }
+    img {
+      width: 300px;
+      height: 400px;
+      margin: 1% 2% 1% 2%;
+      float: left; /*float left er kaj holo image ke bam theke add kor shuru korbe*/
+      /*float: right; float right er kaj holo image ke dan theke add kor shuru korbe*/
+    }
+    table {
+      text-align: center;
+      margin: auto;
+    }
+
+    table,
+    th,
+    td {
+      /* border will work for every elements th td  */
+      border: 2px solid black;
+      /* border: 1px solid black; */
+      /* border will work for 1 time for everone th td */
+      /* border-collapse: collapse; */
+      border-radius: 5px;
+      /* border-color: rgb(39, 249, 249); */
+      /* border-style: outset; */
+    }
+
+    /* Style Table Border: Coloring the td & tr elemenets*/
+    th,
+    td {
+      background-color: rgb(65, 200, 200);
+    }
+    tr:nth-child(even) {
+      background-color: rgb(65, 93, 93);
+    }
+  </style>
+
+  <body>
+    <h1>Welcome To Our Website</h1>
+    <br />
+    <br />
+    <br />
+    <h2>Our Gallery</h2>
+    <img src="hotel.jpg" alt="five star hotel" />
+    <img src="maldives.jpg" alt="tour" />
+    <img src="maria.jpg" alt="jesus christ" />
+    <img src="hagiasoufia.jpg" alt="mashjid" />
+    <img src="nadir.jpg" alt="man" />
+
+    <!-- Table of contents -->
+    <!-- Table values are allowed
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden -->
+    <h2>Our Table Contens</h2>
+    <table>
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Nadir On The Go</td>
+        <td>Mariana Grande</td>
+        <td>Canadian</td>
+      </tr>
+      <tr>
+        <td>Alfread Noble</td>
+        <td>Kolkata Tourism</td>
+        <td>United State of America</td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+.box {
+  width: 400px;
+  height: 400px;
+  background-color: blueviolet;
+  border: 2px solid rebeccapurple;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 3s ease-in-out 1s;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.box:hover {
+  /* transform: rotate(360deg); 
+  transform: scale(2); zoom 
+  transform: scale(2, 3); Zoom + Height
+  transform: skew(-45deg);
+  */
+  transform: translate(500px);
+}
+
+p {
+  font-size: 28px;
+}

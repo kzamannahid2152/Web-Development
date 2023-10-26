@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+</head>
+
+<style>
+    .container {
+        border: 5px solid rgb(215, 26, 171);
+        margin: 1px;
+        padding: 2px;
+        display: flex;
+        flex-direction: row;
+        height: 500px;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: start;
+        align-content: center;
+    }
+
+    .box {
+        border: 2px solid black;
+        width: 250px;
+        height: 250px;
+        margin: 3px;
+    }
+
+    #one {
+        background-color: brown;
+        order: 500;
+        /* flex-shrink: 5; */
+        flex-grow: 1;
+    }
+
+    #two {
+        background-color: aqua;
+        flex-grow: 1;
+    }
+
+    #three {
+        background-color: blueviolet;
+        flex-grow: 1;
+    }
+
+    #four {
+        background-color: aquamarine;
+        flex-grow: 1;
+    }
+</style>
+
+<body>
+    <!-- FlexBox -> ek prokar er layout method -->
+    <div class="container">
+        <div class="box" id="one">Box 1</div>
+        <div class="box" id="two">Box 2</div>
+        <div class="box" id="three">Box 3</div>
+        <div class="box" id="four">Box 4</div>
+    </div>
+</body>
+
+</html>
